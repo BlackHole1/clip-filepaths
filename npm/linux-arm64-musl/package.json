@@ -1,6 +1,6 @@
 {
-  "name": "clip-filepaths-linux-arm64-musl",
-  "version": "0.2.0",
+  "name": "@black_hole/clip-filepaths-linux-arm64-musl",
+  "version": "0.0.2",
   "os": [
     "linux"
   ],

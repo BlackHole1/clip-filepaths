@@ -1,5 +1,9 @@
 # clip-filepaths
 
+FORK FROM [@tktcorporation/clip-filepaths](https://github.com/tktcorporation/clip-filepaths)
+
+> Ref: https://github.com/tktcorporation/clip-filepaths/pull/27
+
 📋 Copy and read file paths and text from clipboard - A cross platform utility.
 
 <img height="100" src="https://github.com/user-attachments/assets/836b665b-5a53-4b22-b8dc-4cc77a106999" >
@@ -21,7 +25,7 @@ When developing Electron applications, I needed a way to copy multiple photo fil
 ## Installation
 
 ```bash
-npm install clip-filepaths
+npm install @black_hole/clip-filepaths
 ```
 
 ## Usage
@@ -29,7 +33,7 @@ npm install clip-filepaths
 ### Copying File Paths
 
 ```typescript
-import { writeClipboardFilePaths } from 'clip-filepaths';
+import { writeClipboardFilePaths } from '@black_hole/clip-filepaths';
 
 // Copy file paths to clipboard
 const filePaths: string[] = ['/path/to/file1.txt', '/path/to/file2.jpg'];
@@ -40,7 +44,7 @@ console.log('File paths copied to clipboard successfully');
 ### Reading Clipboard Content
 
 ```typescript
-import { readClipboardFilePaths } from 'clip-filepaths';
+import { readClipboardFilePaths } from '@black_hole/clip-filepaths';
 
 // Read both file paths and text from clipboard
 const content = readClipboardFilePaths();
@@ -61,7 +65,7 @@ if (content.text) {
 ### Clear Clipboard
 
 ```typescript
-import { writeClipboardFilePaths } from 'clip-filepaths';
+import { writeClipboardFilePaths } from '@black_hole/clip-filepaths';
 
 // Clear clipboard content by passing an empty array
 writeClipboardFilePaths([]);
@@ -86,7 +90,7 @@ We welcome contributions! Please read our [Contributing Guidelines](./docs/CONTR
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [existing issues](https://github.com/tktcorporation/clip-filepaths/issues)
+1. Check the [existing issues](https://github.com/BlackHole1/clip-filepaths/issues)
 2. Create a new issue if your problem hasn't been reported
 
 ## Related Projects

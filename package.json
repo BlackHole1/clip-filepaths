@@ -1,6 +1,6 @@
 {
-  "name": "clip-filepaths",
-  "version": "0.2.0",
+  "name": "@black_hole/clip-filepaths",
+  "version": "0.0.3",
   "main": "index.js",
   "types": "index.d.ts",
   "description": "📋 Copy multiple file paths (including images) to clipboard - A cross platform utility.",
@@ -16,10 +16,10 @@
     "windows",
     "linux"
   ],
-  "repository": "https://github.com/tktcorporation/clip-filepaths",
-  "homepage": "https://github.com/tktcorporation/clip-filepaths#readme",
+  "repository": "https://github.com/BlackHole1/clip-filepaths",
+  "homepage": "https://github.com/BlackHole1/clip-filepaths#readme",
   "bugs": {
-    "url": "https://github.com/tktcorporation/clip-filepaths/issues"
+    "url": "https://github.com/BlackHole1/clip-filepaths/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -84,5 +84,15 @@
     "lint:fix": "biome check --fix --unsafe",
     "biome": "biome"
   },
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "optionalDependencies": {
+    "@black_hole/clip-filepaths-win32-x64-msvc": "0.0.2",
+    "@black_hole/clip-filepaths-darwin-x64": "0.0.2",
+    "@black_hole/clip-filepaths-linux-x64-gnu": "0.0.2",
+    "@black_hole/clip-filepaths-darwin-arm64": "0.0.2",
+    "@black_hole/clip-filepaths-win32-arm64-msvc": "0.0.2",
+    "@black_hole/clip-filepaths-linux-arm64-musl": "0.0.2",
+    "@black_hole/clip-filepaths-linux-arm64-gnu": "0.0.2",
+    "@black_hole/clip-filepaths-linux-x64-musl": "0.0.2"
+  }
 }
